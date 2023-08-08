@@ -1,0 +1,106 @@
+{
+  "owner": { "id": "592d1d91b138731350b1d2ff", "displayName": "demo" },
+  "location": { "longitude": 0, "latitude": 0 },
+  "extraFuncsEnable": { "customerAnalysis": false },
+  "playingContent": {
+    "id": "642a6a70ad913a3188d2c743",
+    "name": "프레젠테이션_테스트_일번",
+    "type": "PRESENTATION"
+  },
+  "content": {
+    "id": "642a6a70ad913a3188d2c743",
+    "name": "프레젠테이션_테스트_일번",
+    "type": "PRESENTATION"
+  },
+  "name": "기기입니다^.^",
+  "orientation": "LANDSCAPE",
+  "desc": "ㅎㅇㅎㅇ",
+  "address": "대한민국, 전라남도, 곡성군",
+  "ipAddress": "192.168.0.22",
+  "macAddress": "",
+  "bluetoothMAC": "",
+  "displayWidth": 1920,
+  "displayHeight": 1080,
+  "accessToken": "",
+  "freeStorage": 20893851600,
+  "totalStorage": 22692196400,
+  "isAutoLocate": false,
+  "autoRes": true,
+  "isDim": false,
+  "enableNotification": true,
+  "enableAudience": false,
+  "enableDeviceStatus": true,
+  "enableLog": false,
+  "brightness": 100,
+  "status": "ACTIVATED",
+  "liveStatus": "ONLINE",
+  "playStatus": "PLAY",
+  "autoScale": "ASPECT_RATIO",
+  "alignDisplay": "MIDDLE_CENTER",
+  "alignOut": "MIDDLE_CENTER",
+  "socketId": "oIxymkEG6uHyJMsNAAAB",
+  "os": "ANDROID",
+  "osVersion": "25",
+  "defLanguage": "ko",
+  "swVersion": "3.0.10",
+  "playingWidget": [],
+  "publicIpAddress": "222.112.13.75",
+  "_id": "642b9271778c2e53d4af07fb",
+  "pinCode": "WGLI-55H3-MJE4-DF2H-JMTH-CAHV-3TTZ-RPF8",
+  "activatedDate": "2023-04-04T02:58:57.495Z",
+  "autoActions": [],
+  "categoryManagement": [
+    {
+      "id": "6424f72112737538244c4044",
+      "name": "카카테고리어르",
+      "type": "CATEGORYMANAGEMENT",
+      "_id": "642bccc7778c2e53d4af0985"
+    },
+    {
+      "id": "640fdc784baca33260939c02",
+      "name": "opopopo",
+      "type": "CATEGORYMANAGEMENT",
+      "_id": "642bccc7778c2e53d4af0986"
+    },
+    {
+      "id": "640a860ef22deb383cbea56b",
+      "name": "카테고리테스트",
+      "type": "CATEGORYMANAGEMENT",
+      "_id": "642bccc7778c2e53d4af0987"
+    },
+    {
+      "id": "640fd3734baca33260939b68",
+      "name": "zzzz",
+      "type": "CATEGORYMANAGEMENT",
+      "_id": "642bccc7778c2e53d4af0988"
+    }
+  ],
+  "contentManagement": [
+    {
+      "id": "642650d43b12a51d8c640189",
+      "name": "",
+      "type": "CONTENTMANAGEMENT",
+      "category": "640a860ef22deb383cbea56b",
+      "_id": "642bccc7778c2e53d4af098b"
+    }
+  ],
+  "createdDate": "2023-04-04T02:58:57.495Z",
+  "events": [],
+  "lastAccessDate": "2023-04-04T02:58:57.495Z",
+  "latestUptime": "2023-04-04T07:08:01.000Z",
+  "presentations": [
+    {
+      "id": "642650d43b12a51d8c640189",
+      "name": "",
+      "type": "PRESENTATION",
+      "category": "640a860ef22deb383cbea56b",
+      "_id": "642bc0cc778c2e53d4af0930"
+    }
+  ],
+  "producedDate": "2023-04-04T02:58:57.495Z",
+  "rules": [],
+  "sharedList": [],
+  "updatedDate": "2023-04-04T07:53:14.620Z",
+  "id": "642b9271778c2e53d4af07fb",
+  "group": { "id": "63e47b5eeb25d9165c77bd84", "name": "undefined" }
+}

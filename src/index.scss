@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Anton|Black+Han+Sans|Coming+Soon|Dokdo|Gaegu|Gothic+A1|Hi+Melody|Josefin+Sans|Lobster|Lora|Nanum+Brush+Script|Nanum+Gothic|Nanum+Gothic+Coding|Nanum+Myeongjo|Nanum+Pen+Script|Open+Sans|Oswald|Patrick+Hand+SC|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture|Cute+Font|Do+Hyeon|Dokdo|East+Sea+Dokdo|Gugi|Jua|Kirang+Haerang|Poor+Story|Song+Myung|Stylish|Sunflower:300|Yeon+Sung');
+@import url('https://fonts.googleapis.com/earlyaccess/hanna.css');
+@import url('https://fonts.googleapis.com/earlyaccess/jejugothic.css');
+@import url('https://fonts.googleapis.com/earlyaccess/jejuhallasan.css');
+@import url('https://fonts.googleapis.com/earlyaccess/jejumyeongjo.css');
+@import url('https://fonts.googleapis.com/earlyaccess/kopubbatang.css');
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Noto Sans', 'Noto Sans KR', sans-serif, Arial;
+  color: #000;
+  font-size: 62.5%;
+}
+
+button {
+  cursor: pointer;
+}

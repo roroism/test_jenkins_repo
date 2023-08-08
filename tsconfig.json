@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES5",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "strict": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": false,
+    "outDir": "dist",
+    "jsx": "react",
+    "lib": ["ES2022", "dom", "dom.iterable"],
+
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": ["./*"]
+    },
+    "typeRoots": ["node_modules/@types", "typings/**/*"]
+  },
+  "exclude": ["config"]
+}

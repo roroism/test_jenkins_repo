@@ -1,0 +1,86 @@
+import { Theme } from '@emotion/react';
+
+/**
+ * light 테마와 dark 테마 색상코드 정의
+ *
+ * @author roro 2023.07.13
+ */
+export const lightTheme: Theme = {
+  mode: {
+    text: '#373a37',
+    textAside: '#373a37',
+    background: '#fff',
+    // backgroundAside: '#FBFBFA',
+    backgroundAside: '#fafbfc',
+    backgroundAsideHover: '#efefef',
+    backgroundSelectedAsideGroup: '#fff',
+    backgroundHomeItem: '#fff',
+    backgroundNavMenu: '#fff',
+    backgroundNavMenuHover: '#efefef',
+    // buttonText: '#000',
+    // buttonTextHover: '#fff',
+    // buttonBorder: '#000',
+    // buttonBg: 'rgba(0, 0, 0, 0)',
+    // buttonBgHover: 'rgba(0, 0, 0, 1)',
+    darkmodeSwitch: '#bbb',
+    iconAside: '#bbb',
+    iconActionButton: '#bbb',
+    iconActionButtonHover: '#373a37',
+    borderAside: '#e6e6e6',
+    borderBottomBaseNavBar: '#ddd',
+    actionButtonBorder: '#7D8590',
+    actionButtonBorderHover: '#373a37',
+    actionButtonBackground: 'transparent',
+    actionButtonBackgroundHover: '#efefef',
+    tableTrBackgroundHover: '#f7f7f7',
+    tableTrBorderBottom: '#eee',
+    modalBackground: '#fff',
+    previewBackground: '#efefef',
+  },
+  modeTransition: {
+    duration: '.35s',
+  },
+  isDarkmode: false,
+};
+
+export const darkTheme: Theme = {
+  mode: {
+    text: '#fff',
+    textAside: '#fff',
+    // background: '#232631',
+    background: '#1f2023',
+    backgroundAside: '#2d2f34',
+    backgroundAsideHover: '#414246',
+    backgroundSelectedAsideGroup: '#35363a',
+    // backgroundHomeItem: '#272E3A',
+    backgroundHomeItem: '#2d2f34',
+    backgroundNavMenu: '#2d2f34',
+    // backgroundNavMenuHover: '#3d3f44',
+    backgroundNavMenuHover: '#414246',
+    // buttonText: '#fff',
+    // buttonTextHover: '#000',
+    // buttonBorder: '#fff',
+    // buttonBg: 'rgba(255, 255, 255, 0)',
+    // buttonBgHover: 'rgba(255, 255, 255, 1)',
+    darkmodeSwitch: '#3d424e',
+    iconAside: '#7D8590',
+    iconActionButton: '#7D8590',
+    iconActionButtonHover: '#fff',
+    borderAside: '#2d2f34',
+    borderBottomBaseNavBar: '#373a37',
+    actionButtonBorder: '#7D8590',
+    actionButtonBorderHover: '#fff',
+    actionButtonBackground: 'transparent',
+    // actionButtonBackgroundHover: '#3d3f44',
+    actionButtonBackgroundHover: '#414246',
+    // tableTrBackgroundHover: '#3d3f44',
+    tableTrBackgroundHover: '#414246',
+    tableTrBorderBottom: '#444',
+    modalBackground: '#2d2f34',
+    previewBackground: '#414246',
+  },
+  modeTransition: {
+    duration: '.35s',
+  },
+  isDarkmode: true,
+};
